@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+
+# wygenerowana mapa (przykład trzymamy jako example_erasmus_map.html)
+erasmus_map.html

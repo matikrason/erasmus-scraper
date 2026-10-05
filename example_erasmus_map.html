@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a88b035ddf9b6ca87fc2c5ac4b3a61e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4a88b035ddf9b6ca87fc2c5ac4b3a61e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4a88b035ddf9b6ca87fc2c5ac4b3a61e = L.map(
+                "map_4a88b035ddf9b6ca87fc2c5ac4b3a61e",
+                {
+                    center: [40.0, -4.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7ab85472af182a340d6a6c6c00c1c9a2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7ab85472af182a340d6a6c6c00c1c9a2.addTo(map_4a88b035ddf9b6ca87fc2c5ac4b3a61e);
+        
+    
+            var marker_9f808bc02dde009fa980a7aa640f1bff = L.marker(
+                [42.22614, -8.7518471],
+                {
+}
+            ).addTo(map_4a88b035ddf9b6ca87fc2c5ac4b3a61e);
+        
+    
+            var icon_f2b9f3d189d49b48b0fb9b364b342581 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_63fb3433ad61c60c1ae33bded1ae88c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96ad2baaac338b839176f9d4131b9214 = $(`<div id="html_96ad2baaac338b839176f9d4131b9214" style="width: 100.0%; height: 100.0%;"><b>Universidad De Vigo</b><br>Adres: Centro Integrado de Formación Profesional Audiovisual de Vigo, Rúa Eduardo Cabello, O Cordoeiro, Bouzas, Vigo, Pontevedra, Galicia, 36208, España<br>Ranking odległości: #1<br>Odległość do morza: 0.03 km</div>`)[0];
+                popup_63fb3433ad61c60c1ae33bded1ae88c1.setContent(html_96ad2baaac338b839176f9d4131b9214);
+            
+        
+
+        marker_9f808bc02dde009fa980a7aa640f1bff.bindPopup(popup_63fb3433ad61c60c1ae33bded1ae88c1)
+        ;
+
+        
+    
+    
+                marker_9f808bc02dde009fa980a7aa640f1bff.setIcon(icon_f2b9f3d189d49b48b0fb9b364b342581);
+            
+    
+            var marker_00ddfa79b774241bcea263d156a4ed2a = L.marker(
+                [39.4808517, -0.3420311],
+                {
+}
+            ).addTo(map_4a88b035ddf9b6ca87fc2c5ac4b3a61e);
+        
+    
+            var icon_991bbf858af1a402ffd42d5bbdcb34b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ad5e8e054f5611696b212a75399c437 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fa81a5d0613fad949d6ce433fb5d566 = $(`<div id="html_5fa81a5d0613fad949d6ce433fb5d566" style="width: 100.0%; height: 100.0%;"><b>Universitat Politecnica de Valencia</b><br>Adres: Campus de Vera de la Universitat Politècnica de València, Camí de Vera, la Carrasca, Algirós, València, Comarca de València, València / Valencia, Comunitat Valenciana, 46022, España<br>Ranking odległości: #2<br>Odległość do morza: 1.6 km</div>`)[0];
+                popup_3ad5e8e054f5611696b212a75399c437.setContent(html_5fa81a5d0613fad949d6ce433fb5d566);
+            
+        
+
+        marker_00ddfa79b774241bcea263d156a4ed2a.bindPopup(popup_3ad5e8e054f5611696b212a75399c437)
+        ;
+
+        
+    
+    
+                marker_00ddfa79b774241bcea263d156a4ed2a.setIcon(icon_991bbf858af1a402ffd42d5bbdcb34b8);
+            
+    
+            var marker_551190789fc3a6676f76c74ea4cec1d0 = L.marker(
+                [42.613309, -5.5604122],
+                {
+}
+            ).addTo(map_4a88b035ddf9b6ca87fc2c5ac4b3a61e);
+        
+    
+            var icon_0b3581f57b9cb7a574f31b5419993e93 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68d6e909559f4dabb990465a0a2c65a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c19ac5ad272f8db3bb7b0c178f32d1ef = $(`<div id="html_c19ac5ad272f8db3bb7b0c178f32d1ef" style="width: 100.0%; height: 100.0%;"><b>Universidad De Leon</b><br>Adres: Universidad de León - Campus Universitario de Vegazanas, Asistente Social Olga Cobo, San Lorenzo - La Palomera - San Mamés, León, Castilla y León, 24007, España<br>Ranking odległości: #3<br>Odległość do morza: inf km</div>`)[0];
+                popup_68d6e909559f4dabb990465a0a2c65a6.setContent(html_c19ac5ad272f8db3bb7b0c178f32d1ef);
+            
+        
+
+        marker_551190789fc3a6676f76c74ea4cec1d0.bindPopup(popup_68d6e909559f4dabb990465a0a2c65a6)
+        ;
+
+        
+    
+    
+                marker_551190789fc3a6676f76c74ea4cec1d0.setIcon(icon_0b3581f57b9cb7a574f31b5419993e93);
+            
+    
+            var marker_c8eea48f10ade7b7dc3a3fe619f4edbf = L.marker(
+                [41.2214475, 1.7301449],
+                {
+}
+            ).addTo(map_4a88b035ddf9b6ca87fc2c5ac4b3a61e);
+        
+    
+            var icon_a5728953c05ab03bae9ab7b8294a4b2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c756845992a7cf720b6fe4e271e7540 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c29a9210ac37b17540c5305167d11f6 = $(`<div id="html_6c29a9210ac37b17540c5305167d11f6" style="width: 100.0%; height: 100.0%;"><b>Universitat Politecnica de Catalunya</b><br>Adres: Escola Politècnica Superior d''Enginyeria de Vilanova i la Geltrú (EPSEVG), 1, Avinguda de Víctor Balaguer, Eixample de Mar, Barri de Mar, Vilanova i la Geltrú, Garraf, Barcelona, Catalunya, 08800, España<br>Ranking odległości: #4<br>Odległość do morza: inf km</div>`)[0];
+                popup_3c756845992a7cf720b6fe4e271e7540.setContent(html_6c29a9210ac37b17540c5305167d11f6);
+            
+        
+
+        marker_c8eea48f10ade7b7dc3a3fe619f4edbf.bindPopup(popup_3c756845992a7cf720b6fe4e271e7540)
+        ;
+
+        
+    
+    
+                marker_c8eea48f10ade7b7dc3a3fe619f4edbf.setIcon(icon_a5728953c05ab03bae9ab7b8294a4b2d);
+            
+    
+            var marker_92a4dd99eff6c424b802b9d1e5e53151 = L.marker(
+                [36.5346849, -6.3035588],
+                {
+}
+            ).addTo(map_4a88b035ddf9b6ca87fc2c5ac4b3a61e);
+        
+    
+            var icon_aa0d68bb11d7b92e5c0d00086c78c24f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f9998422b1b0af835d0754045398b865 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4ec983c209116d9db8fc5dab25b0365 = $(`<div id="html_b4ec983c209116d9db8fc5dab25b0365" style="width: 100.0%; height: 100.0%;"><b>Universidad De Cadiz</b><br>Adres: Centro Tecnológico de Cádiz, Calle Santa Rosalía, Santa Bárbara, Cádiz, Bahía de Cádiz, Cádiz, Andalucía, 11003, España<br>Ranking odległości: #5<br>Odległość do morza: inf km</div>`)[0];
+                popup_f9998422b1b0af835d0754045398b865.setContent(html_b4ec983c209116d9db8fc5dab25b0365);
+            
+        
+
+        marker_92a4dd99eff6c424b802b9d1e5e53151.bindPopup(popup_f9998422b1b0af835d0754045398b865)
+        ;
+
+        
+    
+    
+                marker_92a4dd99eff6c424b802b9d1e5e53151.setIcon(icon_aa0d68bb11d7b92e5c0d00086c78c24f);
+            
+</script>
+</html>

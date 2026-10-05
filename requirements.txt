@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+geopy
+folium
+selenium
+webdriver-manager
+urllib3
