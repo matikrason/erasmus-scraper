@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_4a88b035ddf9b6ca87fc2c5ac4b3a61e {
+                #map_1be7fbefc5c99f55ebf9be6906910e88 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,14 +54,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_4a88b035ddf9b6ca87fc2c5ac4b3a61e" ></div>
+            <div class="folium-map" id="map_1be7fbefc5c99f55ebf9be6906910e88" ></div>
         
 </body>
 <script>
     
     
-            var map_4a88b035ddf9b6ca87fc2c5ac4b3a61e = L.map(
-                "map_4a88b035ddf9b6ca87fc2c5ac4b3a61e",
+            var map_1be7fbefc5c99f55ebf9be6906910e88 = L.map(
+                "map_1be7fbefc5c99f55ebf9be6906910e88",
                 {
                     center: [40.0, -4.0],
                     crs: L.CRS.EPSG3857,
@@ -78,14 +78,14 @@
 
         
     
-            var tile_layer_7ab85472af182a340d6a6c6c00c1c9a2 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+            var tile_layer_ca5e5109a0af23ea3ceef1c07dd78a9d = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
-  "maxZoom": 19,
-  "maxNativeZoom": 19,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
   "noWrap": false,
-  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "attribution": "Tiles \u0026copy; Esri \u0026mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012",
   "subdomains": "abc",
   "detectRetina": false,
   "tms": false,
@@ -95,55 +95,17 @@
             );
         
     
-            tile_layer_7ab85472af182a340d6a6c6c00c1c9a2.addTo(map_4a88b035ddf9b6ca87fc2c5ac4b3a61e);
+            tile_layer_ca5e5109a0af23ea3ceef1c07dd78a9d.addTo(map_1be7fbefc5c99f55ebf9be6906910e88);
         
     
-            var marker_9f808bc02dde009fa980a7aa640f1bff = L.marker(
-                [42.22614, -8.7518471],
+            var marker_400f8853a2cf7e0cf2163ae33e332f19 = L.marker(
+                [36.7213028, -4.4216366],
                 {
 }
-            ).addTo(map_4a88b035ddf9b6ca87fc2c5ac4b3a61e);
+            ).addTo(map_1be7fbefc5c99f55ebf9be6906910e88);
         
     
-            var icon_f2b9f3d189d49b48b0fb9b364b342581 = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "green",
-  "iconColor": "white",
-  "icon": "tint",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_63fb3433ad61c60c1ae33bded1ae88c1 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_96ad2baaac338b839176f9d4131b9214 = $(`<div id="html_96ad2baaac338b839176f9d4131b9214" style="width: 100.0%; height: 100.0%;"><b>Universidad De Vigo</b><br>Adres: Centro Integrado de Formación Profesional Audiovisual de Vigo, Rúa Eduardo Cabello, O Cordoeiro, Bouzas, Vigo, Pontevedra, Galicia, 36208, España<br>Ranking odległości: #1<br>Odległość do morza: 0.03 km</div>`)[0];
-                popup_63fb3433ad61c60c1ae33bded1ae88c1.setContent(html_96ad2baaac338b839176f9d4131b9214);
-            
-        
-
-        marker_9f808bc02dde009fa980a7aa640f1bff.bindPopup(popup_63fb3433ad61c60c1ae33bded1ae88c1)
-        ;
-
-        
-    
-    
-                marker_9f808bc02dde009fa980a7aa640f1bff.setIcon(icon_f2b9f3d189d49b48b0fb9b364b342581);
-            
-    
-            var marker_00ddfa79b774241bcea263d156a4ed2a = L.marker(
-                [39.4808517, -0.3420311],
-                {
-}
-            ).addTo(map_4a88b035ddf9b6ca87fc2c5ac4b3a61e);
-        
-    
-            var icon_991bbf858af1a402ffd42d5bbdcb34b8 = L.AwesomeMarkers.icon(
+            var icon_afca7a7dd4d3dc41a0214b32fec40961 = L.AwesomeMarkers.icon(
                 {
   "markerColor": "green",
   "iconColor": "white",
@@ -154,34 +116,236 @@
             );
         
     
-        var popup_3ad5e8e054f5611696b212a75399c437 = L.popup({
-  "maxWidth": "100%",
+        var popup_67e9bfa80af7b2d7d1ef63cd7eb69a8c = L.popup({
+  "maxWidth": 320,
 });
 
         
             
-                var html_5fa81a5d0613fad949d6ce433fb5d566 = $(`<div id="html_5fa81a5d0613fad949d6ce433fb5d566" style="width: 100.0%; height: 100.0%;"><b>Universitat Politecnica de Valencia</b><br>Adres: Campus de Vera de la Universitat Politècnica de València, Camí de Vera, la Carrasca, Algirós, València, Comarca de València, València / Valencia, Comunitat Valenciana, 46022, España<br>Ranking odległości: #2<br>Odległość do morza: 1.6 km</div>`)[0];
-                popup_3ad5e8e054f5611696b212a75399c437.setContent(html_5fa81a5d0613fad949d6ce433fb5d566);
+                var html_633f0b54f2e28314562ef7d608244be2 = $(`<div id="html_633f0b54f2e28314562ef7d608244be2" style="width: 100.0%; height: 100.0%;"><b>Universidad de Málaga</b><br>Adres: Málaga, España<br>Ranking odległości: #1<br>Odległość do morza: 0.2 km</div>`)[0];
+                popup_67e9bfa80af7b2d7d1ef63cd7eb69a8c.setContent(html_633f0b54f2e28314562ef7d608244be2);
             
         
 
-        marker_00ddfa79b774241bcea263d156a4ed2a.bindPopup(popup_3ad5e8e054f5611696b212a75399c437)
+        marker_400f8853a2cf7e0cf2163ae33e332f19.bindPopup(popup_67e9bfa80af7b2d7d1ef63cd7eb69a8c)
         ;
 
         
     
     
-                marker_00ddfa79b774241bcea263d156a4ed2a.setIcon(icon_991bbf858af1a402ffd42d5bbdcb34b8);
-            
-    
-            var marker_551190789fc3a6676f76c74ea4cec1d0 = L.marker(
-                [42.613309, -5.5604122],
+            marker_400f8853a2cf7e0cf2163ae33e332f19.bindTooltip(
+                `<div>
+                     Universidad de Málaga
+                 </div>`,
                 {
+  "sticky": true,
 }
-            ).addTo(map_4a88b035ddf9b6ca87fc2c5ac4b3a61e);
+            );
         
     
-            var icon_0b3581f57b9cb7a574f31b5419993e93 = L.AwesomeMarkers.icon(
+                marker_400f8853a2cf7e0cf2163ae33e332f19.setIcon(icon_afca7a7dd4d3dc41a0214b32fec40961);
+            
+    
+            var marker_bfe5068630b4990b4abf23d64f3b0439 = L.marker(
+                [38.3436365, -0.4881708],
+                {
+}
+            ).addTo(map_1be7fbefc5c99f55ebf9be6906910e88);
+        
+    
+            var icon_8c08b91e852d4446e3eac4dcf4952a0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_69e6d7d2b6bb56eee8a9d38e0ade34ef = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_f8e360c4ae439ec3eaed95dfbdb7b3dd = $(`<div id="html_f8e360c4ae439ec3eaed95dfbdb7b3dd" style="width: 100.0%; height: 100.0%;"><b>Universidad de Alicante</b><br>Adres: Alacant / Alicante, España<br>Ranking odległości: #2<br>Odległość do morza: 1.43 km</div>`)[0];
+                popup_69e6d7d2b6bb56eee8a9d38e0ade34ef.setContent(html_f8e360c4ae439ec3eaed95dfbdb7b3dd);
+            
+        
+
+        marker_bfe5068630b4990b4abf23d64f3b0439.bindPopup(popup_69e6d7d2b6bb56eee8a9d38e0ade34ef)
+        ;
+
+        
+    
+    
+            marker_bfe5068630b4990b4abf23d64f3b0439.bindTooltip(
+                `<div>
+                     Universidad de Alicante
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bfe5068630b4990b4abf23d64f3b0439.setIcon(icon_8c08b91e852d4446e3eac4dcf4952a0d);
+            
+    
+            var marker_69022698ffaad681f1212da97f5f110e = L.marker(
+                [38.7077507, -9.1365919],
+                {
+}
+            ).addTo(map_1be7fbefc5c99f55ebf9be6906910e88);
+        
+    
+            var icon_a52b3e61ae99c68b8c1b3654b1945510 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2cebb1febc48146d21c9978b55483f8d = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_a6cfae4ad9a832f40d2bb09911f193ea = $(`<div id="html_a6cfae4ad9a832f40d2bb09911f193ea" style="width: 100.0%; height: 100.0%;"><b>Universidade de Lisboa</b><br>Adres: Lisboa, Portugal<br>Ranking odległości: #3<br>Odległość do morza: 2.21 km</div>`)[0];
+                popup_2cebb1febc48146d21c9978b55483f8d.setContent(html_a6cfae4ad9a832f40d2bb09911f193ea);
+            
+        
+
+        marker_69022698ffaad681f1212da97f5f110e.bindPopup(popup_2cebb1febc48146d21c9978b55483f8d)
+        ;
+
+        
+    
+    
+            marker_69022698ffaad681f1212da97f5f110e.bindTooltip(
+                `<div>
+                     Universidade de Lisboa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_69022698ffaad681f1212da97f5f110e.setIcon(icon_a52b3e61ae99c68b8c1b3654b1945510);
+            
+    
+            var marker_c1cb2d9304af57376becbfc8e3e7cd93 = L.marker(
+                [41.1502195, -8.6103497],
+                {
+}
+            ).addTo(map_1be7fbefc5c99f55ebf9be6906910e88);
+        
+    
+            var icon_16b9c291cf4b714abf959865e37c3c91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_63b41b0b7719394e2703f4c103210f74 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_3fbf730d1f47358aa68e54bdc8c7f55e = $(`<div id="html_3fbf730d1f47358aa68e54bdc8c7f55e" style="width: 100.0%; height: 100.0%;"><b>Universidade do Porto</b><br>Adres: Porto, Portugal<br>Ranking odległości: #4<br>Odległość do morza: 3.2 km</div>`)[0];
+                popup_63b41b0b7719394e2703f4c103210f74.setContent(html_3fbf730d1f47358aa68e54bdc8c7f55e);
+            
+        
+
+        marker_c1cb2d9304af57376becbfc8e3e7cd93.bindPopup(popup_63b41b0b7719394e2703f4c103210f74)
+        ;
+
+        
+    
+    
+            marker_c1cb2d9304af57376becbfc8e3e7cd93.bindTooltip(
+                `<div>
+                     Universidade do Porto
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c1cb2d9304af57376becbfc8e3e7cd93.setIcon(icon_16b9c291cf4b714abf959865e37c3c91);
+            
+    
+            var marker_3f1bdfa38f35d9a56c5449c7fad0db2f = L.marker(
+                [39.4697065, -0.3763353],
+                {
+}
+            ).addTo(map_1be7fbefc5c99f55ebf9be6906910e88);
+        
+    
+            var icon_10e3731face217c34817910d86766ca0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "tint",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cd43fdc485349570269fe42b1f3f3a46 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_3aafcdc17d51f303b526e1e8325b683e = $(`<div id="html_3aafcdc17d51f303b526e1e8325b683e" style="width: 100.0%; height: 100.0%;"><b>Universitat Politècnica de València</b><br>Adres: València, España<br>Ranking odległości: #5<br>Odległość do morza: 4.11 km</div>`)[0];
+                popup_cd43fdc485349570269fe42b1f3f3a46.setContent(html_3aafcdc17d51f303b526e1e8325b683e);
+            
+        
+
+        marker_3f1bdfa38f35d9a56c5449c7fad0db2f.bindPopup(popup_cd43fdc485349570269fe42b1f3f3a46)
+        ;
+
+        
+    
+    
+            marker_3f1bdfa38f35d9a56c5449c7fad0db2f.bindTooltip(
+                `<div>
+                     Universitat Politècnica de València
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3f1bdfa38f35d9a56c5449c7fad0db2f.setIcon(icon_10e3731face217c34817910d86766ca0);
+            
+    
+            var marker_a20eb8bf677c7eb59b90aca7cb78ccc7 = L.marker(
+                [40.416782, -3.703507],
+                {
+}
+            ).addTo(map_1be7fbefc5c99f55ebf9be6906910e88);
+        
+    
+            var icon_c1e17a896567d4667279adf1d21734fb = L.AwesomeMarkers.icon(
                 {
   "markerColor": "blue",
   "iconColor": "white",
@@ -192,100 +356,34 @@
             );
         
     
-        var popup_68d6e909559f4dabb990465a0a2c65a6 = L.popup({
-  "maxWidth": "100%",
+        var popup_f739bbcd3bffd915540ecc7965a65373 = L.popup({
+  "maxWidth": 320,
 });
 
         
             
-                var html_c19ac5ad272f8db3bb7b0c178f32d1ef = $(`<div id="html_c19ac5ad272f8db3bb7b0c178f32d1ef" style="width: 100.0%; height: 100.0%;"><b>Universidad De Leon</b><br>Adres: Universidad de León - Campus Universitario de Vegazanas, Asistente Social Olga Cobo, San Lorenzo - La Palomera - San Mamés, León, Castilla y León, 24007, España<br>Ranking odległości: #3<br>Odległość do morza: inf km</div>`)[0];
-                popup_68d6e909559f4dabb990465a0a2c65a6.setContent(html_c19ac5ad272f8db3bb7b0c178f32d1ef);
+                var html_fb839ad6198d78dae17f0df2d63eb3d0 = $(`<div id="html_fb839ad6198d78dae17f0df2d63eb3d0" style="width: 100.0%; height: 100.0%;"><b>Universidad Politécnica de Madrid</b><br>Adres: Madrid, España<br>Ranking odległości: #6<br>Odległość do morza: 305.58 km</div>`)[0];
+                popup_f739bbcd3bffd915540ecc7965a65373.setContent(html_fb839ad6198d78dae17f0df2d63eb3d0);
             
         
 
-        marker_551190789fc3a6676f76c74ea4cec1d0.bindPopup(popup_68d6e909559f4dabb990465a0a2c65a6)
+        marker_a20eb8bf677c7eb59b90aca7cb78ccc7.bindPopup(popup_f739bbcd3bffd915540ecc7965a65373)
         ;
 
         
     
     
-                marker_551190789fc3a6676f76c74ea4cec1d0.setIcon(icon_0b3581f57b9cb7a574f31b5419993e93);
-            
-    
-            var marker_c8eea48f10ade7b7dc3a3fe619f4edbf = L.marker(
-                [41.2214475, 1.7301449],
+            marker_a20eb8bf677c7eb59b90aca7cb78ccc7.bindTooltip(
+                `<div>
+                     Universidad Politécnica de Madrid
+                 </div>`,
                 {
-}
-            ).addTo(map_4a88b035ddf9b6ca87fc2c5ac4b3a61e);
-        
-    
-            var icon_a5728953c05ab03bae9ab7b8294a4b2d = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
+  "sticky": true,
 }
             );
         
     
-        var popup_3c756845992a7cf720b6fe4e271e7540 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_6c29a9210ac37b17540c5305167d11f6 = $(`<div id="html_6c29a9210ac37b17540c5305167d11f6" style="width: 100.0%; height: 100.0%;"><b>Universitat Politecnica de Catalunya</b><br>Adres: Escola Politècnica Superior d''Enginyeria de Vilanova i la Geltrú (EPSEVG), 1, Avinguda de Víctor Balaguer, Eixample de Mar, Barri de Mar, Vilanova i la Geltrú, Garraf, Barcelona, Catalunya, 08800, España<br>Ranking odległości: #4<br>Odległość do morza: inf km</div>`)[0];
-                popup_3c756845992a7cf720b6fe4e271e7540.setContent(html_6c29a9210ac37b17540c5305167d11f6);
-            
-        
-
-        marker_c8eea48f10ade7b7dc3a3fe619f4edbf.bindPopup(popup_3c756845992a7cf720b6fe4e271e7540)
-        ;
-
-        
-    
-    
-                marker_c8eea48f10ade7b7dc3a3fe619f4edbf.setIcon(icon_a5728953c05ab03bae9ab7b8294a4b2d);
-            
-    
-            var marker_92a4dd99eff6c424b802b9d1e5e53151 = L.marker(
-                [36.5346849, -6.3035588],
-                {
-}
-            ).addTo(map_4a88b035ddf9b6ca87fc2c5ac4b3a61e);
-        
-    
-            var icon_aa0d68bb11d7b92e5c0d00086c78c24f = L.AwesomeMarkers.icon(
-                {
-  "markerColor": "blue",
-  "iconColor": "white",
-  "icon": "info-sign",
-  "prefix": "glyphicon",
-  "extraClasses": "fa-rotate-0",
-}
-            );
-        
-    
-        var popup_f9998422b1b0af835d0754045398b865 = L.popup({
-  "maxWidth": "100%",
-});
-
-        
-            
-                var html_b4ec983c209116d9db8fc5dab25b0365 = $(`<div id="html_b4ec983c209116d9db8fc5dab25b0365" style="width: 100.0%; height: 100.0%;"><b>Universidad De Cadiz</b><br>Adres: Centro Tecnológico de Cádiz, Calle Santa Rosalía, Santa Bárbara, Cádiz, Bahía de Cádiz, Cádiz, Andalucía, 11003, España<br>Ranking odległości: #5<br>Odległość do morza: inf km</div>`)[0];
-                popup_f9998422b1b0af835d0754045398b865.setContent(html_b4ec983c209116d9db8fc5dab25b0365);
-            
-        
-
-        marker_92a4dd99eff6c424b802b9d1e5e53151.bindPopup(popup_f9998422b1b0af835d0754045398b865)
-        ;
-
-        
-    
-    
-                marker_92a4dd99eff6c424b802b9d1e5e53151.setIcon(icon_aa0d68bb11d7b92e5c0d00086c78c24f);
+                marker_a20eb8bf677c7eb59b90aca7cb78ccc7.setIcon(icon_c1e17a896567d4667279adf1d21734fb);
             
 </script>
 </html>
