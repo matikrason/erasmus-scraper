@@ -6,3 +6,5 @@ venv/
 
 # wygenerowana mapa (przykład trzymamy jako example_erasmus_map.html)
 erasmus_map.html
+ne_10m_coastline.geojson
+page_dump.html
